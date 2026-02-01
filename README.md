@@ -52,7 +52,7 @@ async def main():
     # Make a payment
     result = await client.pay(
         wallet_id=wallet.id,
-        recipient="0x742d35Cc6634C0532925a3b844Bc9e7595f5e4a0",
+        recipient="RECEPIENT_WALLET_ID",
         amount=Decimal("10.00")
     )
     print(f"Payment: {result.status}")
